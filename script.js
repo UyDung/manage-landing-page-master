@@ -8,11 +8,14 @@ humbergerBtn.addEventListener('click', () => {
      if(humbergerBtn.classList.contains('humberger__close')) {
           humbergerBtn.classList.remove('humberger__close');
           humbergerBtn.classList.add('humberger__open');
+
           menu.style.display = "flex";
      } else {
           humbergerBtn.classList.remove('humberger__open');
           humbergerBtn.classList.add('humberger__close');
+
           menu.style.display = "none";
+
      }
 })
 

@@ -15,6 +15,10 @@ a {
   color: #242d52;
 }
 
+a:hover {
+  opacity: 0.3;
+}
+
 h1 {
   font-size: 2.8125rem;
 }
@@ -159,13 +163,10 @@ body {
   height: 100%;
   position: relative;
 }
-.header nav .menu a {
+.header nav .main-menu a {
   padding: 1.25rem;
   display: inline-block;
   font-size: 0.75rem;
-}
-.header nav .menu a:hover {
-  opacity: 0.4;
 }
 .header nav .humberger__btn {
   border: 0;
@@ -500,11 +501,11 @@ body {
   }
 }
 @media screen and (max-width: 31.25rem) {
-  .header nav .menu {
+  .header nav .main-menu {
     display: none;
   }
   .header nav .humberger__btn {
-    display: flex;
+    display: block;
   }
 
   .main section {

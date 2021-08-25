@@ -25,6 +25,11 @@ a {
       color: $Dark_Blue;
 }
 
+
+a:hover {
+     opacity: 0.3;
+}
+
 h1 {
       font-size: torem(45);
 }
