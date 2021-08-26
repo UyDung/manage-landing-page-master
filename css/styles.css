@@ -430,7 +430,7 @@ body {
   color: red;
 }
 
-@media (max-width: 48rem) {
+@media (max-width: 768px) {
   .header {
     padding: 1.25rem;
   }
@@ -500,7 +500,7 @@ body {
     gap: 1.875rem;
   }
 }
-@media screen and (max-width: 31.25rem) {
+@media (max-width: 500px) {
   .header nav .main-menu {
     display: none;
   }
